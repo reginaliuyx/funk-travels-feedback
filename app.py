@@ -11,7 +11,7 @@ if ENV == 'dev':
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:PASSWORD@localhost/funk-travels' # database - change PASSWORD to your own when switching back to dev env
 else:
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://mfrycanolffhkx:ec0f43f247dc13d49cc5f7f89c2a4a350abcc4227238e4935b19b4bb08a25a6d@ec2-50-17-197-184.compute-1.amazonaws.com:5432/dbv2u0vui2ikbs' # production database
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://seezokrbzltvkp:bdd4f5ad3d9240ddd00489b0ad572e4807a5de1499946b99b49b778306b95db0@ec2-52-205-61-60.compute-1.amazonaws.com:5432/d86o9nqj67r551' # production database
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
