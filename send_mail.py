@@ -9,7 +9,7 @@ def send_mail(customer, agent, rating, comments):
     message = f'<h3>New Feedback Submission</h3><ul><li>Customer: {customer}</li><li>Agent: {agent}</li><li>Rating: {rating}</li><li>Comments: {comments}</li></ul>'
 
     sender_email = 'email1@example.com'
-    receiver_email = 'regina.liuyixuan@gmail.com'
+    receiver_email = 'email2@example.com'
     msg = MIMEText(message, 'html')
     msg['Subject'] = 'Funk Travels Feedback'
     msg['From'] = sender_email
